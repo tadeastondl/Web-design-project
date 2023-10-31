@@ -1,0 +1,12 @@
+/*--text: #0d0b02;
+--background: #ffffff;
+--primary: #795f11;
+--secondary: #f8ecc9;
+--accent: #d7a91d;
+*/
+.cardContainer {
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    gap: 2em
+}

@@ -1,0 +1,46 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default spacing */
+/* force styling of type through styling, rather than elements */
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-family: "Roboto Slab", serif;
+}
+
+/* min body height */
+
+body,
+#root {
+  min-height: 100vh;
+}
+
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+button:focus-visible {
+  outline: none;
+}
+
+h1,
+h2,
+h3 {
+  word-wrap: balance;
+}
